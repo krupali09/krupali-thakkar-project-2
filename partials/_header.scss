@@ -1,0 +1,50 @@
+.logo {
+    text-transform: uppercase;
+    font-family: 'Kumar One Outline', sans-serif;
+    padding-left: 220px;
+    font-size: 1.8rem;
+    width: 5%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li a {
+    padding: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 1.4px;
+    line-height: 29px;
+}
+
+a {
+    color: rgb(21, 21, 20);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(../styles/assets/header-home.jpg);
+    height: 100vh;
+    width: auto;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+}
+
+.heroImageContainer {
+    display: flex;
+    justify-content: left;
+    width: 700px;   
+    padding: 80px 15px 20px 0px;
+    flex-wrap: nowrap;
+}
+

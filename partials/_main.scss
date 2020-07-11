@@ -1,0 +1,54 @@
+.flexMaterial {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.materialImg {
+    display: flex;
+    width: 40%; 
+    height: 250px;
+    margin-right: 150px;
+    padding-top: 10px;
+    margin-top: 100px;
+}    
+
+.materialImg img {
+    box-shadow: -10px 10px rgb(248, 251, 5);  
+}
+
+.materialContent h2 {
+    font-family: 'Kumar One';
+    font-size: 2rem;
+    justify-content: flex-start;
+    margin-left: 100px;
+    padding-top: 150px;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.materialContent p {
+    font-family: 'lato', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 100px;
+    padding-bottom: 20px;
+    width: 60%;
+    justify-content: flex-start;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(224, 253, 223);;
+    height: 400px;
+}
+
+.galleryItem {
+    width: 300px;
+    margin: 50px 30px;
+}
