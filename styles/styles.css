@@ -1059,18 +1059,10 @@ aside {
             justify-content: center;
   }
   .blog h3 {
-    font-size: 1.5rem;
-    margin-left: 70px;
-    margin-top: 40px;
+    display: none;
   }
   .blog h1 {
-    font-size: 2rem;
-    margin-left: 150px;
-    margin-top: 20px;
-  }
-  li a {
-    padding: 15px;
-    line-height: 2px;
+    display: none;
   }
   .rightHalfImage,
   .rightHalfText {
@@ -1082,14 +1074,8 @@ aside {
   .contact h3 {
     display: none;
   }
-  li a {
-    margin-top: 120px;
-    margin-right: 30px;
-  }
   .contact h1 {
-    margin-left: 120px;
-    margin-top: 0px;
-    font-size: 2rem;
+    display: none;
   }
   .form {
     height: 450px;
