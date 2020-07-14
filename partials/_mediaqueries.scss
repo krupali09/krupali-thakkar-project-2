@@ -213,3 +213,27 @@ input {
 }
 
 }
+
+@media (max-width: 360px) {
+    .blog h3,
+    .blog h1 {
+        display: none;
+    }
+
+    li a {
+        padding: 5px;
+    }
+
+    .commentsText p {
+
+        margin-right: 2px;
+        }
+
+        .comments img {
+            margin-left: 10px;
+        }
+
+        .contact h1 {
+            display: none;
+        }
+}
