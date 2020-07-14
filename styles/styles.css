@@ -245,6 +245,10 @@ body {
   margin: 0 auto;
 }
 
+span {
+  border-bottom: 5px solid #f8fb05;
+}
+
 .logo {
   text-transform: uppercase;
   font-family: 'Kumar One Outline', sans-serif;
@@ -806,7 +810,7 @@ input {
   border: none;
   margin-top: 30px;
   margin-left: 90px;
-  border-bottom: 2px solid darkgreen;
+  border-bottom: 2px solid #065635;
 }
 
 input[type=text],
@@ -889,7 +893,7 @@ aside {
 .social a {
   padding: 10px;
   margin-top: 30px;
-  color: darkgreen;
+  color: #065635;
 }
 
 .fontsAwesome ul {
@@ -932,11 +936,11 @@ aside {
 }
 
 .form {
-  border: 1px solid black;
+  border: 1px solid #151514;
   text-align: center;
   background-color: whitesmoke;
-  -webkit-box-shadow: 10px 10px yellow;
-          box-shadow: 10px 10px yellow;
+  -webkit-box-shadow: 10px 10px #f8fb05;
+          box-shadow: 10px 10px #f8fb05;
   margin-left: 90px;
   margin-top: -150px;
   position: relative;
