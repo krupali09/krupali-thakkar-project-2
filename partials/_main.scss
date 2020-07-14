@@ -52,3 +52,179 @@
     width: 300px;
     margin: 50px 30px;
 }
+
+.fontsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-1 h2,
+.container-2 h2,
+.container-3 h2,
+.container-4 h2 {
+    text-transform: uppercase;
+    font-family: 'Kumar One';
+    font-size: 2rem;
+    margin-top: 35px;
+    margin-left: 30px;
+    justify-content: space-around;
+    letter-spacing: 2px;
+}
+
+.container-1 p,
+.container-2 p,
+.container-3 p,
+.container-4 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 160px;
+    align-content: center;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.fa-home, 
+.fa-users,
+.fa-file,
+.fa-phone {
+    background-color: rgb(248, 251, 5);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.imageContainer {
+    display: flex;
+    background-color: rgb(224, 253, 223);;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.imageContainer {
+    width: 100%;
+    background-color: rgb(224, 253, 223);
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 50px;
+    height: auto;
+    position: relative;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    flex: 1 1 500px;
+}
+
+.first img,
+.fourth img {
+    height: 300px;
+    width: 70%;
+    position: relative;
+}
+
+.first img {
+    margin-top: -20px;
+    box-shadow: 10px 10px rgb(248, 251, 5);
+}
+
+.fourth img {
+    display: flex;
+    align-self: flex-end;
+    align-content: flex-end;
+    margin-left: 180px;
+    margin-bottom: -20px;
+    box-shadow: -10px 10px rgb(248, 251, 5);
+}
+
+
+.second h2,
+.third h2 {
+    font-family: 'Kumar One';
+    text-transform: uppercase;
+    margin-top: 40px; 
+    font-size: 2rem;
+}
+
+.second p,
+.third p {
+    font-family: 'lato', sans-serif;
+    // padding: 50px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2px;
+    line-height: 1.5em;
+} 
+
+.second h2,
+.second p,
+.third h2,
+.third p {
+    margin-left: 130px;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.style {
+    background-color: rgb(245, 245, 245);
+    height: 300px;
+}
+
+.style h2 {
+    font-family: 'Kumar One';
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 20px;
+    margin-left: 450px;
+}
+
+.style p {
+    font-family: 'lato', sans-serif;
+    font-size: 1.5rem;
+    margin: 20px 50px 0px 40px;
+}
+
+.second a,
+.third a {
+    background-color: rgb(6, 86, 53);
+    padding: 10px;
+    text-transform: uppercase;
+    color: rgb(245, 245, 245);
+    font-family: 'lato', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 120px;
+    margin-bottom: 80px;
+}
+
+
+button {
+    background-color: rgb(6, 86, 53);
+    padding: 10px;
+    text-transform: uppercase;
+    color: rgb(245, 245, 245);
+    font-family: 'lato', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 100px;
+    // margin-top: 20px;
+}

@@ -17,6 +17,13 @@
 </head>
 <body>
     <!-- Navigation Starts -->
+    <section  class="contact">   
+        <div class="wrapper">
+        <h3>Sanctuary Helpers</h3> 
+        <h1>Get In Touch</h1>
+        </div>
+        
+        
     <nav>
         <div class="wrapper">
             <ul class="navbar">
@@ -27,29 +34,28 @@
             </ul>
             </div>
         </nav>
+        </section>
     <!-- Navigation Ends -->
 
     <!-- Contact Text Starts-->
-    <section>
-        <div class="wrapper">
-            <div class="contactText">
-                <h3>Sanctuary Helpers</h3>
-                <h1>Get In Touch</h1>
-            </div>
-        </div>
-    </section>
     <!-- Contact Text Ends -->
 
     <!-- Forms start here -->
-    <section>
-        <div class="wrapper">
-            <form action="#" method="#" class="myForm" name="myForm">
-                <label for="userName">Name</label>
-                <input type="text" id="userName" name="userName" required>
-            
-                <label for="userEmail">Email:</label>
-                <input type="text" id="userEmail" name="userEmail" required>
     
+    <section class="formContainer">
+        <!-- <div class="contactFinal"> -->
+        <div class="wrapper">
+            <form action="#" method="#" class="form" name="myForm">
+
+                
+                <label for="userName"></label>
+                <div class="inputContact">
+                <input type="text" id="userName" name="userName" required placeholder="Name">
+
+                <label for="email"></label>
+                <input type="text" id="email" name="email" required placeholder="Email Address">
+                </div>
+
                 <div>
                 <label for="message"></label>
                 <textarea name="userMessage" id="message" cols="30" rows="10" minlength="5" maxlength="200">Message</textarea>
@@ -59,51 +65,46 @@
                 </div>
             </form>    
         </div>
-    </section>    
-    <!-- Form Ends Here -->
-                
-    <!-- fonts + details -->
-    <section>
-        <div class="wrapper">
+    
         <div class="fontsAwesome">
+            <aside>
                 <ul>
-                <li>
+                <li class="social">
                     <a href="#">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                </li>
-                <li>
+                
+                
                     <a href="#">
                         <i class="fab fa-instagram"></i>
                     </a>
-                </li>
-                <li>
-                    <a href="#">
+                
+                 <a href="#">
                         <i class="fab fa-twitter"></i>
                     </a>
-                </li>
-                <li>
-                    <a href="#">
+
+                <a href="#">
                         <i class="fab fa-whatsapp"></i>
                     </a>
                 </li>
                 </ul>
-            </div>
-        </div>
-            <div class="wrapper">
+            
+
             <div class="contactInfo">
                 <div>
                 <a href="mailto:info@email.com">info@email.com</a>
                 </div>
                 <div>
-                <a href="tel:18005555533">Phone: 123-456-7890</a>
+                <a href="tel:18005555533">123-456-7890</a>
                 </div>
                 <p>123 Queen Street West, Unit 10</p>
                 <p>Toronto, Ontario</p>
                 <p>M5V2D5</p>
             </div>
         </div>
-    </section>    
+    </aside>  
+</section>
+</div>
 <!-- Font + details ends here -->
 
 <!-- Footer Starts -->
